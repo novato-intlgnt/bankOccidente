@@ -1,0 +1,16 @@
+@import url("./components/navbar.css");
+@import url("./components/header.css");
+@import url("./components/footer.css");
+
+:root {
+  --font-size-nabs: 16px;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333;
+}
+
