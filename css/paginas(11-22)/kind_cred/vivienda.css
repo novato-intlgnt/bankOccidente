@@ -1,0 +1,20 @@
+
+/* GENERAL */
+:root{
+  --color_border_radius_buttom_3: rgb(248, 224, 176);
+  --back_ground-card_3: rgb(254, 249, 238);
+}
+
+
+.content_options[data-card="vivienda"] .card {
+  background: var(--back_ground-card_3); 
+  border: 1px solid var(--color_border_radius_buttom_3);
+}
+
+
+
+.content_options[data-card="vivienda"] .card-texto p:first-of-type {
+  border: 1px solid var(--color_border_radius_buttom_3);
+   color: #333333;
+
+}

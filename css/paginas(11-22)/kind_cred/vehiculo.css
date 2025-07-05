@@ -1,0 +1,20 @@
+
+/* GENERAL */
+:root{
+  --color_border_radius_buttom_2: rgb(188, 246, 214);
+  --back_ground-card_2: rgb(240, 253, 245);
+}
+
+
+.content_options[data-card="vehiculo"] .card {
+  background: var(--back_ground-card_2); 
+  border: 1px solid var(--color_border_radius_buttom_2);
+}
+
+
+
+.content_options[data-card="vehiculo"] .card-texto p:first-of-type {
+  border: 1px solid var(--color_border_radius_buttom_2);
+    color: #333333;
+
+}

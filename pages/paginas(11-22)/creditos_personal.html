@@ -7,6 +7,8 @@
      <link rel="stylesheet" href="/css/paginas(11-22)/creditos_personal.css" />
     <script src="/js/paginas(11-22)/creditos_personal.js" defer></script>
     <script src="/js/include.js" defer></script>
+    <script src="/js/paginas(11-22)/kind_cred.js" defer></script>
+
     <title>Sobre Nosotros</title>
 </head>
 <body>
@@ -16,73 +18,161 @@
 <div data-include="/components/navbar.html"></div>
 <div class="contenido">
 
-    <div class="block1">
+    <div class="block1" id="block_1" data-section="personas">
         <div class="left">
             
-            <div class="credito"><p>Creditos</p></div>
+            <div class="credito">Creditos</div>
             <div class="lectura">
                 <h1>Tu crédito, </h1>
-                <h1>tu futuro</h1   >
+                <h1 style="color: #0081FF;">tu futuro</h1   >
             </div>
             <div class="info">
                 <p>Obtén el crédito que necesitas con condiciones flexibles y tasas competitivas. 
                     ¡Haz realidad tus metas hoy mismo!</p>
             </div>     
         </div>
-        <div class="right">
-            <img src="vlaor.png">
-        </div>
+
+            <img src="/assets/images/paginas(11-22)/credito_personal/pareja-block1.png">
+
     </div>
     <div class="block2">
-        <h1>Créditos para tus sueños y proyectos</h1>
+        <h1 class="title_type">Créditos para tus sueños y proyectos</h1>
         <ul class="options_block2">
-            <li>Personas</li>
-            <li>Vehículos</li>
-            <li>Vivíenda</li>
-            <li>Leasing Habitacional</li>
-        <ul/>
-        <div class="content_options">
-            <!-- Se genrara por js e importaciones de js -->
+            <li data-template="personas">Personas</li>
+            <li data-template="vehiculo">Vehículo</li>
+            <li data-template="vivienda">Vivienda</li>
+            <li data-template="leasing">Leasing Habitacional</li>
+        </ul>
+
+        <div class="content_options" id="content_options" data-card="personas">
+        <!-- Aquí se cargan las tarjetas dinámicamente -->
+         <div class="card">
+  <div class="card-texto">
+    <p>Préstamo Personal</p>  
+    <h1>Libre Inversión</h1>
+    <p>Obtén dinero para cualquier necesidad.</p>
+    <button class="boton">Solícítalo ahora</button>
+  </div>
+  <div class="card-img">
+    <img src="../../../../assets/images/paginas(11-22)/credito_personal/card_1_persona.png" alt="Persona feliz">
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-texto">
+    <p>Libranza</p>  
+    <h1>Libranza</h1>
+    <p>Accede a pagos cómodos y descuentos especiales.</p>
+    <button class="boton">Solícítalo ahora</button>
+  </div>
+  <div class="card-img">
+    <img src="../../../../assets/images/paginas(11-22)/credito_personal/card_1_persona1.png" alt="Persona con papeles">
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-texto">
+    <p>Libre Inversión</p>  
+    <h1>Compra de Cartera</h1>
+    <p>Reduce tu tasa de interés y mejora tu flujo financiero.</p>
+    <button class="boton">Solícítalo ahora</button>
+  </div>
+  <div class="card-img">
+    <img src="../../../../assets/images/paginas(11-22)/credito_personal/card_1_persona2.png" alt="Persona con tablet">
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-texto">
+    <p>Libre Inversión</p>  
+    <h1>Crédito Rotativo</h1>
+    <p>Ten dinero disponible siempre que lo necesites.</p>
+    <button class="boton">Solícítalo ahora</button>
+  </div>
+  <div class="card-img">
+    <img src="../../../../assets/images/paginas(11-22)/credito_personal/card_1_persona3.png" alt="Mujer con dinero">
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-texto">
+    <p>Libre Inversión</p>  
+    <h1>Cartera Ordinaria</h1>
+    <p>Cree en tus proyectos, nosotros te los financiamos.</p>
+    <button class="boton">Solícítalo ahora</button>
+  </div>
+  <div class="card-img">
+    <img src="../../../../assets/images/paginas(11-22)/credito_personal/card_1_persona4.png" alt="Hombre con celular">
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-texto">
+    <p>Libre Inversión</p>  
+    <h1>Crédito Pensiones Voluntarias</h1>
+    <p>Planifica tu futuro con financiación especial.</p>
+    <button class="boton">Solícítalo ahora</button>
+  </div>
+  <div class="card-img">
+    <img src="../../../../assets/images/paginas(11-22)/credito_personal/card_1_persona5.png" alt="Pareja feliz">
+  </div>
+</div>
+
+
         </div>
     </div>
+
     <div class="block3">
-        <h1>Benaficios</h1>
-        <div class="section-block3">
-            <img src="#">
-            <h1>Tasas competitivas</h1>
-            <p>Disfruta tasas de interés preferenciales y opciones de pago adaptadas a tu capacidad financiera.</p>
-    
-        </div>
-        <div class="section-block3">
-            <img src="#">
-            <h1>Aprobación rápida</h1>
-            <p>Solicita tu crédito con procesos ágiles y digitales, sin trámites complicados.</p>
-    
-        </div>
-        <div class="section-block3">
-            <img src="#">
-            <h1>Plazos ajustados</h1>
-            <p>Escoge el plazo que mejor se adapte a tu plan financiero y paga cómodamente.</p>
-    
-        </div>
-        <div class="section-block3">
-            <img src="#">
-            <h1>Asesoría personalizada</h1>
-            <p>Cuenta con expertos que te guiarán en cada paso para tomar la mejor decisión financiera.</p>
-    
+        <h1 class="block3_h1">Benaficios</h1>
+        <div class="sections">
+
+          <div class="section-block3">
+              <img src="/assets/images/paginas(11-22)/credito_personal/block3_tasas.png">
+              <div class="section_text">
+                
+                <h1>Tasas competitivas</h1>
+                <p>Disfruta tasas de interés preferenciales y opciones de pago adaptadas a tu capacidad financiera.</p>
+        
+              </div>
+          </div>
+          <div class="section-block3">
+              <img src="/assets/images/paginas(11-22)/credito_personal/block3_billete.png">
+              <div class="section_text">
+                
+                <h1>Aprobación rápida</h1>
+                <p>Solicita tu crédito con procesos ágiles y digitales, sin trámites complicados.</p>
+        
+              </div>
+          </div>
+          <div class="section-block3">
+              <img src="/assets/images/paginas(11-22)/credito_personal/block3_apob_fast.png">
+              <div class="section_text">
+                
+                <h1>Plazos ajustados</h1>
+                <p>Escoge el plazo que mejor se adapte a tu plan financiero y paga cómodamente.</p>
+        
+              </div>
+          </div>
+          <div class="section-block3">
+              <img src="/assets/images/paginas(11-22)/credito_personal/block3_seguridad.png">
+              <div class="section_text">
+                
+                <h1>Asesoría personalizada</h1>
+                <p>Cuenta con expertos que te guiarán en cada paso para tomar la mejor decisión financiera.</p>
+        
+              </div>
+          </div>
         </div>
     </div>
     <div class="block4">
         <div class="left">
-            <div><p>Cuenta de nómina</p></div>
-            <h1>Trare tu nómina y ahorra más</h1>
-            <p>Obtén descuentos exclusivos en la tasa de interés de tu crédito 
+            <div><p class="title_block4">Cuenta de nómina</p></div>
+            <h1>Trae tu nómina y ahorra más</h1>
+            <p class="text_block4">Obtén descuentos exclusivos en la tasa de interés de tu crédito 
                 al trasladar tu cuenta de nómina con nosotros. </p>
             <button>Hazlo aquí</button>
         </div>
-    <div class="right">
-    
-        </div>
+        <img src="/assets/images/paginas(11-22)/credito_personal/block4_pareja.png">
     </div>
 </div>
 <div data-include="/components/footer.html"></div>

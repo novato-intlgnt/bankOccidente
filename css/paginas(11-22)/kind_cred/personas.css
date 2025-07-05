@@ -1,0 +1,20 @@
+
+/* GENERAL */
+:root{
+  --color_border_radius_buttom_1: rgb(181, 236, 255);
+  --back_ground-card_1: #EFFBFF;
+}
+
+
+.content_options[data-card="personas"] .card {
+  background: var(--back_ground-card_1); 
+  border: 1px solid var(--color_border_radius_buttom_1);
+}
+
+
+
+.content_options[data-card="personas"] .card-texto p:first-of-type {
+  border: 1px solid var(--color_border_radius_buttom_1);
+    color: rgb(13, 85, 155);
+
+}
