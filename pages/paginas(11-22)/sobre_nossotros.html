@@ -3,20 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../components/css/main.css">
-    <script src="/components/js/paginas(11-22)/sobre_nosotros.js" defer></script>
-    <script src="prueba.js"></script>
+     <link rel="stylesheet" href="/css/main.css" />
+    <script src="/js/paginas(11-22)/sobre_nosotros.js" defer></script>
+    <script src="/js/include.js" defer></script>
     <title>Sobre Nosotros</title>
 </head>
 <body>
 <!-- Coloca esto al final del <body> como un footer con apariencia de navbar -->
-<header></header>
 
-<div class="nabvars"></div>
-<div class="contenido">
+<div data-include="/components/header.html"></div>
+<div data-include="/components/navbar.html"></div>
+<div data-include="/components/footer.html"></div>
 
+<div class="contenido"></div>
+<div class="block1">
+    <div class="left">
+        
+        <div class="credito"><p>Creditos</p></div>
+        <div class="lectura">
+            <h1>Tu crédito, </h1>
+            <h1>tu futuro</h1   >
+        </div>
+        <div class="info">
+            <p>Obtén el crédito que necesitas con condiciones flexibles y tasas competitivas. 
+                ¡Haz realidad tus metas hoy mismo!</p>
+        </div>     
+    </div>
+    <div class="right">
+        <img src="vlaor.png">
+    </div>
 </div>
-<footer></footer>
+
 
 </body>
 </html>
