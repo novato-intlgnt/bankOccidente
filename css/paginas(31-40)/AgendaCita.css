@@ -1,0 +1,72 @@
+:root{
+    --border_radius_block:10px;
+    --fondos: rgb(237, 250, 255);
+    --color-fuente-overlay: rgb(181, 236, 255);
+    --fondo-sections:rgb(181, 236, 255);
+    --border-boton-block1: rgb(188, 246, 214);
+    --barckground-boton-block1: rgb(240, 253, 245);
+    --fondo-azul-salud: #d6e7f0;
+}
+body{
+        font-size:'Poppins', sans-serif ;
+}
+.breadcrumb {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  display: flex;
+  gap: 8px;
+  color: #333;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.breadcrumb a {
+  color: #0056d2;            /* Azul */
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.breadcrumb .actual {
+  color: #2d2d2d;            /* Gris oscuro */
+  font-weight: 400;
+}
+
+.breadcrumb span {
+  user-select: none;
+}
+.breadcrumb-wrapper {
+  padding-top: 32px;
+  margin-right: 770px;
+}
+
+
+
+.asesor {
+  margin: 0 320px;
+  padding-bottom: 48px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.asesor h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  line-height: 1.2;
+  font-weight: bolder;
+}
+
+.asesor p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  margin: 0;
+}
+
+/* Colores personalizados para el texto */
+        .azul {
+            color: rgb(8, 98, 197);
+        }
+
+        .negro {
+            color: #2d2d2d;
+        }
