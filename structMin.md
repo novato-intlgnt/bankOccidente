@@ -53,15 +53,15 @@
 29. [Cuenta Ahorros](https://www.bancodeoccidente.com.co/seguros/cuenta-ahorros)
 30. [Tarjeta Crédito](https://www.bancodeoccidente.com.co/seguros/tarjeta-credito)
 31. [Vehículo Cuota Protegida](https://www.bancodeoccidente.com.co/seguros/vehiculos-cuota-protegida)
-32. [Mascotas](https://www.bancodeoccidente.com.co/seguros/mascotas)
+32. [Mascotas](https://www.bancodeoccidente.com.co/seguros/mascotas-perros-gatos)
 33. [Emermédica](https://www.bancodeoccidente.com.co/seguros/emermedica)
 34. [Desempleo Empleados](https://www.bancodeoccidente.com.co/seguros/desempleo-empleados)
+35. [De incendio](https://www.bancodeoccidente.com.co/seguros/incendio)
 
 ---
 
 ## Complementarios
 
-35. [Inicio](https://www.bancodeoccidente.com.co/inicio)
 36. [Canales Digitales](https://www.bancodeoccidente.com.co/canales-digitales)
 37. [Portal Transaccional](https://www.bancodeoccidente.com.co/canales-digitales/portal-transaccional)
 38. [Ayuda](https://www.bancodeoccidente.com.co/ayuda)
